@@ -5,6 +5,7 @@ const secContainer = document.querySelector('#seconds');
 
 const countDown = () =>{
     const TargetDate = new Date("25 Nov 2022");
+    
     const CurrentDate = new Date();
     const diffTime = TargetDate - CurrentDate;
     const timeInSeconds = diffTime / 1000;
